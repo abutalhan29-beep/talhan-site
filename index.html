@@ -1,4 +1,5 @@
- <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="bn">
 <head>
 <meta charset="UTF-8">
@@ -52,7 +53,7 @@ body {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
     gap: 20px;
 }
 
@@ -60,7 +61,7 @@ body {
     background: #151f30;
     border: 1px solid #263b54;
     border-radius: 18px;
-    padding: 20px;
+    padding: 18px;
     text-align: center;
     transition: 0.3s;
 }
@@ -71,27 +72,26 @@ body {
     box-shadow: 0 5px 20px #00d4ff25;
 }
 
-.badge {
-    display: inline-block;
-    background: #00d4ff20;
-    color: #00d4ff;
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: bold;
-    margin-bottom: 10px;
+.gadget-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    background: white;
+    border-radius: 12px;
+    margin-bottom: 15px;
 }
 
 .gadget-card h3 {
-    font-size: 18px;
+    font-size: 17px;
     color: #fff;
-    margin: 10px 0;
+    min-height: 45px;
 }
 
 .gadget-card p {
-    font-size: 14px;
+    font-size: 13px;
     color: #bdc9d9;
     line-height: 1.6;
+    min-height: 60px;
 }
 
 .buy-button {
@@ -99,10 +99,10 @@ body {
     background: linear-gradient(90deg,#00d4ff,#008bff);
     color: #00101c;
     text-decoration: none;
-    padding: 13px;
+    padding: 12px;
     border-radius: 30px;
     font-weight: bold;
-    margin-top: 18px;
+    margin-top: 15px;
 }
 
 .buy-button:hover {
@@ -134,19 +134,184 @@ body {
 
 <div class="product-grid">
 
-<!-- Confirmed Product 1 -->
+<!-- Gadget 1 -->
 <div class="gadget-card">
-<span class="badge">❄️ গেমিং কুলার ফ্যান</span>
-<h3>MOBILIFE ম্যাগনেটিক ফোন কুলার</h3>
-<p>LCD ডিসপ্লে ও ৩টি কুলিং মোডসহ সেমিকন্ডাক্টর মোবাইল কুলার—গেমিং ও ভিডিও রেকর্ডিংয়ের সময় ফোন বরফের মতো ঠান্ডা রাখে।</p>
+<img src="https://m.media-amazon.com/images/I/412tICjHr4L._SL1024_.jpg"
+alt="Qi Wireless Charging Receiver">
+<h3>Qi ওয়্যারলেস চার্জিং রিসিভার</h3>
+<p>সাধারণ ফোনে Qi ওয়্যারলেস চার্জিং সুবিধা যোগ করার অ্যাডাপ্টার।</p>
 <a class="buy-button" href="https://link.amazon/B0ja51J6i" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<!-- Gadget 2 -->
+<div class="gadget-card">
+<img src="IMAGE_LINK_2" alt="Qi2 Magnetic Power Bank">
+<h3>Qi2 ম্যাগনেটিক পাওয়ার ব্যাংক 10000mAh</h3>
+<p>ম্যাগনেটিক ওয়্যারলেস চার্জিং সুবিধাসহ পাওয়ার ব্যাংক।</p>
+<a class="buy-button" href="https://link.amazon/B05KEwMrp" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<!-- Gadget 3 -->
+<div class="gadget-card">
+<img src="IMAGE_LINK_3" alt="MOBILIFE Phone Cooler">
+<h3>MOBILIFE ম্যাগনেটিক ফোন কুলার</h3>
+<p>গেমিং ও ভিডিও রেকর্ডিংয়ের সময় ফোন ঠান্ডা রাখতে সাহায্য করে।</p>
+<a class="buy-button" href="https://link.amazon/B0cU3lS5H" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<!-- Gadget 4 -->
+<div class="gadget-card">
+<img src="IMAGE_LINK_4" alt="Mobile Cooling Fan">
+<h3>স্মার্ট মোবাইল কুলিং ফ্যান</h3>
+<p>স্মার্টফোনের তাপ কমাতে সাহায্যকারী কুলিং অ্যাক্সেসরিজ।</p>
+<a class="buy-button" href="https://link.amazon/B011zbUvj" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<!-- Gadget 5 to 24 -->
+<div class="gadget-card">
+<img src="IMAGE_LINK_5" alt="Smart Gadget 5">
+<h3>স্মার্ট টেক গ্যাজেট #৫</h3>
+<p>দৈনন্দিন ব্যবহারের জন্য স্মার্ট অ্যাক্সেসরিজ।</p>
+<a class="buy-button" href="https://link.amazon/B07N1s7tU" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_6" alt="Smart Gadget 6">
+<h3>স্মার্ট টেক গ্যাজেট #৬</h3>
+<p>আধুনিক প্রযুক্তির স্মার্ট গ্যাজেট।</p>
+<a class="buy-button" href="https://link.amazon/B09iI2isX" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_7" alt="Smart Gadget 7">
+<h3>স্মার্ট টেক গ্যাজেট #৭</h3>
+<p>জনপ্রিয় স্মার্টফোন অ্যাক্সেসরিজ।</p>
+<a class="buy-button" href="https://link.amazon/B0cRC4jdA" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_8" alt="Smart Gadget 8">
+<h3>স্মার্ট টেক গ্যাজেট #৮</h3>
+<p>প্রতিদিনের ব্যবহারের প্রয়োজনীয় গ্যাজেট।</p>
+<a class="buy-button" href="https://link.amazon/B0fJTMNIS" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_9" alt="Smart Gadget 9">
+<h3>স্মার্ট টেক গ্যাজেট #৯</h3>
+<p>আধুনিক স্মার্ট অ্যাক্সেসরিজ।</p>
+<a class="buy-button" href="https://link.amazon/B09j1kc9l" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_10" alt="Smart Gadget 10">
+<h3>স্মার্ট টেক গ্যাজেট #১০</h3>
+<p>সাশ্রয়ী স্মার্ট টেক প্রোডাক্ট।</p>
+<a class="buy-button" href="https://link.amazon/B0dmXA0sk" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_11" alt="Smart Gadget 11">
+<h3>স্মার্ট টেক গ্যাজেট #১১</h3>
+<p>দৈনন্দিন কাজের উপযোগী গ্যাজেট।</p>
+<a class="buy-button" href="https://link.amazon/B05FAjWN2" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_12" alt="Smart Gadget 12">
+<h3>স্মার্ট টেক গ্যাজেট #১২</h3>
+<p>স্মার্টফোন ব্যবহারকারীদের জন্য অ্যাক্সেসরিজ।</p>
+<a class="buy-button" href="https://link.amazon/B01TydFVU" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_13" alt="Smart Gadget 13">
+<h3>স্মার্ট টেক গ্যাজেট #১৩</h3>
+<p>ঘর ও অফিসের কাজের উপযোগী পণ্য।</p>
+<a class="buy-button" href="https://link.amazon/B0dQx4d3N" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_14" alt="Smart Gadget 14">
+<h3>স্মার্ট টেক গ্যাজেট #১৪</h3>
+<p>দৈনন্দিন ব্যবহারের ইউটিলিটি গ্যাজেট।</p>
+<a class="buy-button" href="https://link.amazon/B07jAIww2" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_15" alt="Smart Gadget 15">
+<h3>স্মার্ট টেক গ্যাজেট #১৫</h3>
+<p>আধুনিক ডিজাইনের স্মার্ট গ্যাজেট।</p>
+<a class="buy-button" href="https://link.amazon/B02QnnBuS" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_16" alt="Smart Gadget 16">
+<h3>স্মার্ট টেক গ্যাজেট #১৬</h3>
+<p>নির্ভরযোগ্য ও সাশ্রয়ী টেক অ্যাক্সেসরিজ।</p>
+<a class="buy-button" href="https://link.amazon/B043RFrCd" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_17" alt="Smart Gadget 17">
+<h3>স্মার্ট টেক গ্যাজেট #১৭</h3>
+<p>গেমিং ও ভিডিও ব্যবহারের অ্যাক্সেসরিজ।</p>
+<a class="buy-button" href="https://link.amazon/B0eYwt4QV" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_18" alt="Smart Gadget 18">
+<h3>স্মার্ট টেক গ্যাজেট #১৮</h3>
+<p>স্মার্ট প্রযুক্তির আধুনিক সংযোজন।</p>
+<a class="buy-button" href="https://link.amazon/B0622RstT" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_19" alt="Smart Gadget 19">
+<h3>স্মার্ট টেক গ্যাজেট #১৯</h3>
+<p>স্মার্ট জীবনযাপনের জন্য প্রযুক্তিপণ্য।</p>
+<a class="buy-button" href="https://link.amazon/B0csVPZab" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_20" alt="Smart Gadget 20">
+<h3>স্মার্ট টেক গ্যাজেট #২০</h3>
+<p>সাশ্রয়ী দামের আধুনিক গ্যাজেট।</p>
+<a class="buy-button" href="https://link.amazon/B05ra2Ctx" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_21" alt="Smart Gadget 21">
+<h3>স্মার্ট টেক গ্যাজেট #২১</h3>
+<p>প্রতিদিনের প্রযুক্তিগত ব্যবহারের জন্য।</p>
+<a class="buy-button" href="https://link.amazon/B0bP78MCb" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_22" alt="Smart Gadget 22">
+<h3>স্মার্ট টেক গ্যাজেট #২২</h3>
+<p>জনপ্রিয় স্মার্টফোন অ্যাক্সেসরিজ।</p>
+<a class="buy-button" href="https://link.amazon/B0153RWZ4" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_23" alt="Smart Gadget 23">
+<h3>স্মার্ট টেক গ্যাজেট #২৩</h3>
+<p>আধুনিক স্মার্টফোনের উপযোগী গ্যাজেট।</p>
+<a class="buy-button" href="https://link.amazon/B039qPteZ" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+</div>
+
+<div class="gadget-card">
+<img src="IMAGE_LINK_24" alt="Smart Gadget 24">
+<h3>স্মার্ট টেক গ্যাজেট #২৪</h3>
+<p>দৈনন্দিন কাজ সহজ করার স্মার্ট পণ্য।</p>
+<a class="buy-button" href="https://link.amazon/B09QCVJ4Z" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
 </div>
 
 </div>
 
 <footer class="footer">
 <p>© 2026 তালহান১২৩ প্রোডাকশন</p>
-<p>As an Amazon Associate I earn from qualifying purchases.</p>
 <p>ধন্যবাদ আমাদের ওয়েবসাইট ভিজিট করার জন্য ❤️</p>
 </footer>
 
