@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="bn">
 <head>
 <meta charset="UTF-8">
@@ -52,7 +52,7 @@ body {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
     gap: 20px;
 }
 
@@ -60,7 +60,7 @@ body {
     background: #151f30;
     border: 1px solid #263b54;
     border-radius: 18px;
-    padding: 18px;
+    padding: 20px;
     text-align: center;
     transition: 0.3s;
 }
@@ -71,26 +71,27 @@ body {
     box-shadow: 0 5px 20px #00d4ff25;
 }
 
-.gadget-card img {
-    width: 100%;
-    height: 180px;
-    object-fit: contain;
-    background: white;
-    border-radius: 12px;
-    margin-bottom: 15px;
+.badge {
+    display: inline-block;
+    background: #00d4ff20;
+    color: #00d4ff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .gadget-card h3 {
-    font-size: 17px;
+    font-size: 18px;
     color: #fff;
-    min-height: 45px;
+    margin: 10px 0;
 }
 
 .gadget-card p {
-    font-size: 13px;
+    font-size: 14px;
     color: #bdc9d9;
     line-height: 1.6;
-    min-height: 60px;
 }
 
 .buy-button {
@@ -98,10 +99,10 @@ body {
     background: linear-gradient(90deg,#00d4ff,#008bff);
     color: #00101c;
     text-decoration: none;
-    padding: 12px;
+    padding: 13px;
     border-radius: 30px;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 18px;
 }
 
 .buy-button:hover {
@@ -133,116 +134,12 @@ body {
 
 <div class="product-grid">
 
-<!-- Gadget 1 -->
+<!-- Confirmed Product 1 -->
 <div class="gadget-card">
-<img src="https://m.media-amazon.com/images/I/412tICjHr4L._SL1024_.jpg" alt="Qi Wireless Charging Receiver">
-<h3>Qi ওয়্যারলেস চার্জিং রিসিভার</h3>
-<p>সাধারণ ফোনে Qi ওয়্যারলেস চার্জিং সুবিধা যোগ করার অ্যাডাপ্টার।</p>
-<a class="buy-button" href="https://link.amazon/B0ja51J6i" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 2 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_2" alt="Qi2 Magnetic Power Bank">
-<h3>Qi2 ম্যাগনেটিক পাওয়ার ব্যাংক 10000mAh</h3>
-<p>ম্যাগনেটিক ওয়্যারলেস চার্জিং সুবিধাসহ পাওয়ার ব্যাংক।</p>
-<a class="buy-button" href="https://link.amazon/B05KEwMrp" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 3 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_3" alt="MOBILIFE Phone Cooler">
+<span class="badge">❄️ গেমিং কুলার ফ্যান</span>
 <h3>MOBILIFE ম্যাগনেটিক ফোন কুলার</h3>
-<p>গেমিং ও ভিডিও রেকর্ডিংয়ের সময় ফোন ঠান্ডা রাখতে সাহায্য করে।</p>
-<a class="buy-button" href="https://link.amazon/B0cU3lS5H" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 4 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_4" alt="Mobile Cooling Fan">
-<h3>স্মার্ট মোবাইল কুলিং ফ্যান</h3>
-<p>স্মার্টফোনের তাপ কমাতে সাহায্যকারী কুলিং অ্যাক্সেসরিজ।</p>
-<a class="buy-button" href="https://link.amazon/B011zbUvj" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 5 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_5" alt="Kratos N7 Bluetooth Neckband">
-<h3>Kratos N7 ব্লুটুথ নেকব্যান্ড ইয়ারফোন (Blue)</h3>
-<p>৩৫ ঘণ্টা প্লেটাইম, ডিপ বাস এবং Type-C ফাস্ট চার্জিং সুবিধাসহ ওয়্যারলেস নেকব্যান্ড[span_0](start_span)[span_0](end_span)।</p>
-<a class="buy-button" href="https://link.amazon/B07N1s7tU" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 6 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_6" alt="pTron Studio Pro Wireless Headphones">
-<h3>pTron Studio Pro ওয়্যারলেস হেডফোন (Cream)</h3>
-<p>৬৫ ঘণ্টা প্লেটাইম, AI-ENC কলিং এবং লো-লেটেন্সি গেমিং মোডসহ ওভার-ইয়ার হেডফোন[span_1](start_span)[span_1](end_span)[span_2](start_span)[span_2](end_span)।</p>
-<a class="buy-button" href="https://link.amazon/B09iI2isX" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 7 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_7" alt="pTron Studio Pro Headphones">
-<h3>pTron Studio Pro ওভার-ইয়ার হেডফোন</h3>
-<p>৪০মিমি ড্রাইভার, ডুয়াল ডিভাইস পেয়ারিং ও BT 5.4 সুবিধাসহ প্রিমিয়াম হেডফোন[span_3](start_span)[span_3](end_span)।</p>
-<a class="buy-button" href="https://link.amazon/B0cRC4jdA" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 8 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_8" alt="Kratos Black Bluetooth Neckband">
-<h3>Kratos ব্লুটুথ নেকব্যান্ড (Black)</h3>
-<p>৫৫ ঘণ্টা প্লেটাইম, ম্যাগনেটিক ইয়ারবাড ও Type-C ফাস্ট চার্জিং সুবিধাসহ[span_4](start_span)[span_4](end_span)।</p>
-<a class="buy-button" href="https://link.amazon/B0fJTMNIS" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 9 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_9" alt="Kratos N4 Grey Bluetooth Neckband">
-<h3>Kratos N4 ব্লুটুথ নেকব্যান্ড (Grey-Green)</h3>
-<p>৩০ ঘণ্টা প্লেটাইম, HD কলিং ও হালকা ডিজাইনের স্টেরিও ওয়্যারলেস ইয়ারফোন[span_5](start_span)[span_5](end_span)।</p>
-<a class="buy-button" href="https://link.amazon/B09j1kc9l" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 10 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_10" alt="Kratos TW02 Ear Buds">
-<h3>Kratos TW02 ওয়্যারলেস ইয়ারবাডস</h3>
-<p>৬০ ঘণ্টা প্লেটাইম, নয়েজ আইসোলেশন ও IPX5 ওয়াটার রেজিস্ট্যান্ট TWS ইয়ারফোন[span_6](start_span)[span_6](end_span)।</p>
-<a class="buy-button" href="https://link.amazon/B0dmXA0sk" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 11 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_11" alt="Kratos Optic TWS Earbuds">
-<h3>Kratos Optic TWS ইয়ারবাডস (Brown)</h3>
-<p>৬০ ঘণ্টা প্লেটাইম, টাচ কন্ট্রোল ও ডিপ বাসসহ স্টাইলিশ ব্লুটুথ ইয়ারবাডস[span_7](start_span)[span_7](end_span)।</p>
-<a class="buy-button" href="https://link.amazon/B05FAjWN2" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 12 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_12" alt="SHOPCIL Buds 2 Wired Earphones">
-<h3>SHOPCIL Buds 2 ওয়্যার্ড ইয়ারফোন</h3>
-<p>১১.২মিমি ডায়নামিক বাস ড্রাইভার ও ৩.৫মিমি জ্যাকসহ গেমিং ও মিউজিক ইয়ারফোন[span_8](start_span)[span_8](end_span)।</p>
-<a class="buy-button" href="https://link.amazon/B01TydFVU" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 13 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_13" alt="Kratos Tune V4 Type-C Earphones">
-<h3>Kratos Tune V4 Type-C ওয়্যার্ড ইয়ারফোন</h3>
-<p>ইন-লাইন মাইক, ভলিউম কন্ট্রোল ও সোয়েট রেজিস্ট্যান্ট মেটালিক Type-C ইয়ারফোন[span_9](start_span)[span_9](end_span)।</p>
-<a class="buy-button" href="https://link.amazon/B0dQx4d3N" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
-</div>
-
-<!-- Gadget 14 -->
-<div class="gadget-card">
-<img src="IMAGE_LINK_14" alt="Ambrane Stringz 38 Lite Earphones">
-<h3>Ambrane Stringz 38 Lite ওয়্যার্ড ইয়ারফোন (Pink)</h3>
-<p>১৪মিমি ডায়নামিক ড্রাইভার, বুস্টেড বাস ও ৩.৫মিমি জ্যাকসহ ক্লিয়ার কলিং ইয়ারফোন[span_10](start_span)[span_10](end_span)।</p>
-<a class="buy-button" href="https://link.amazon/B07jAIww2" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
+<p>LCD ডিসপ্লে ও ৩টি কুলিং মোডসহ সেমিকন্ডাক্টর মোবাইল কুলার—গেমিং ও ভিডিও রেকর্ডিংয়ের সময় ফোন বরফের মতো ঠান্ডা রাখে।</p>
+<a class="buy-button" href="https://link.amazon/B0ja51J6i" target="_blank" rel="noopener noreferrer">Amazon-এ দাম দেখুন</a>
 </div>
 
 </div>
